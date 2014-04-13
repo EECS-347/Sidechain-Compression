@@ -1,0 +1,4 @@
+
+<Project Header="Project 'PresetController'" Path=".\PresetController.rprj" Project="Yes" OutputFile="" sate="96" ActiveApp="PresetController" >
+	<ApplicationBuild Header="PresetController" Extern=".\PresetController.rapp" Path=".\PresetController.rapp" OutputFile=".\PresetController.aof" sate="2" />
+</Project>

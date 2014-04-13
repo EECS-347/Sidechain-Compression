@@ -1,0 +1,25 @@
+
+<ApplicationBuild Header="PresetController" Extern=".\PresetController.rapp" Path=".\PresetController.rapp" OutputFile=".\PresetController.aof" sate="2" >
+	<Options>
+		<Config Header="Standard" >
+			<Set Header="ApplicationBuild" >
+				<Section Header="General" >
+					<Property Header="TargetFamily" Value="80C51" />
+							
+				</Section>
+					
+			</Set>
+			<Set Header="Target" >
+				<Section Header="Processor80C51" >
+					<Property Header="Processor" Value="AT89S52" Removable="1" />
+							
+				</Section>
+				<Section Header="ToolSet80C51" >
+					<Property Header="BuildToolSet80C51" Value="80C51\RaisonanceTools.config" Removable="1" />
+							
+				</Section>
+					
+			</Set>
+		</Config>
+	</Options>
+</ApplicationBuild>
