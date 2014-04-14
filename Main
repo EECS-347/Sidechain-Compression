@@ -1,0 +1,11 @@
+;Sidechain Compression Main Program
+
+;Startup code goes here:
+
+;Delay code:
+
+;Main loop (reading from rotary encoders, writing to digipots)
+
+;Interrupts from button presses
+
+

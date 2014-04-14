@@ -1,5 +1,5 @@
 
-<ApplicationBuild Header="PresetController" Extern=".\PresetController.rapp" Path=".\PresetController.rapp" OutputFile=".\PresetController.aof" sate="2" >
+<ApplicationBuild Header="Sidechain-Compression" Extern=".\Sidechain-Compression.rapp" Path=".\Sidechain-Compression.rapp" OutputFile=".\Sidechain-Compression.aof" sate="2" >
 	<Options>
 		<Config Header="Standard" >
 			<Set Header="ApplicationBuild" >

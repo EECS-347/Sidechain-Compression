@@ -1,5 +1,5 @@
 [Application]
-ApplicationPath=C:\Users\mike\Documents\GitHub\Sidechain-Compression\PresetController.aof
+ApplicationPath=C:\Users\brian\Documents\GitHub\Sidechain-Compression\Sidechain-Compression.aof
 DebugTool=SIM-51
 CodeSize=0x10000
 XDataSize=0x10000
