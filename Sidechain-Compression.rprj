@@ -1,4 +1,4 @@
 
 <Project Header="Project 'Sidechain-Compression'" Path=".\Sidechain-Compression.rprj" Project="Yes" OutputFile="" sate="96" ActiveApp="Sidechain-Compression" >
-	<ApplicationBuild Header="Sidechain-Compression" Extern=".\Sidechain-Compression.rapp" Path=".\Sidechain-Compression.rapp" OutputFile=".\Sidechain-Compression.aof" sate="2" />
+	<ApplicationBuild Header="Sidechain-Compression" Extern=".\Sidechain-Compression.rapp" Path=".\Sidechain-Compression.rapp" OutputFile=".\Sidechain-Compression.aof" sate="96" />
 </Project>

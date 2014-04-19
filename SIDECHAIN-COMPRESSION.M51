@@ -1,0 +1,91 @@
+LX51 CODE BANKING LINKER/LOCATOR V06.16.13.326                                 04/19/14  17:52:56
+MS-DOS LX51 CODE BANKING LINKER/LOCATOR V06.16.13.326,  INVOKED BY:
+C:\Raisonance\Ride\Bin\LX51.EXE C:\Users\brian\Documents\GitHub\Sidechain-Compression\Main.obj TO&
+(C:\Users\brian\Documents\GitHub\Sidechain-Compression\Sidechain-Compression.aof) LIBPATH(C:\Rais&
+onance\Ride\Lib\51) GENERATEDEPFILE MAP IX RS(256) RSI(128) CSIZE(65536) XSIZE(65536) DEFN(XSTACK&
+LEN,256) DEFN(TIM1_INIT,E8h) CO(0) DT(0) ID(0) XD(0) BI(0) ABSCODEOFFS(0) XMLM(No,C:\Users\brian\&
+Documents\GitHub\Sidechain-Compression\Sidechain-Compression-modules.Standard.xml) XMLF(No,8000,C&
+:\Users\brian\Documents\GitHub\Sidechain-Compression\Sidechain-Compression-flash.Standard.xml) 
+
+
+INPUT MODULES INCLUDED
+  C:\USERS\BRIAN\DOCUMENTS\GITHUB\SIDECHAIN-COMPRESSION\MAIN.OBJ(MAIN)
+
+
+LINK MAP OF MODULE: C:\USERS\BRIAN\DOCUMENTS\GITHUB\SIDECHAIN-COMPRESSION\SIDECHAIN-COMPRESSION.A&
+OF (SIDECHAIN-COMPRESSION)
+
+    TYPE     BASE       LENGTH    RELOCATION     SEGMENT NAME
+    ----     ----       ------    ----------     ------------
+
+    * * * * * * *   DATA/IDATA    M E M O R Y   * * * * * * *
+    REG      0000H      0008H     ABSOLUTE       "REG BANK 0"
+             0008H      0018H                    *** GAP ***
+    DATA     0020H      000CH     ABSOLUTE       
+
+    * * * * * * *   CODE          M E M O R Y   * * * * * * *
+    CODE     0000H      0003H     ABSOLUTE       
+             0003H      003DH                    *** GAP ***
+    CODE     0040H      0013H     ABSOLUTE       
+
+EXECUTABLE SUMMARY:
+-------------------
+    Total INTERNAL RAM storage requirement:  0014H (20)
+    Total EXTERNAL RAM storage requirement:  0000H (0)
+    Total     CODE     storage requirement:  0016H (22)
+Note:  Summary does not include dynamic stack requirements
+
+
+REFERENCE MAP OF MODULE: C:\USERS\BRIAN\DOCUMENTS\GITHUB\SIDECHAIN-COMPRESSION\SIDECHAIN-COMPRESSION.AOF (SIDECHAI&
+N-COMPRESSION)
+
+SEGMENT                           BI_GROUP            DT_GROUP             ID_GROUP             XD_GROUP
+  +--> CALLED SEGMENT          START    LENGTH     START    LENGTH     START    LENGTH     START    LENGTH
+--------------------------------------------------------------------------------------
+
+SYMBOL TABLE FOR C:\USERS\BRIAN\DOCUMENTS\GITHUB\SIDECHAIN-COMPRESSION\SIDECHAIN-COMPRESSION.AOF(&
+MAIN)
+-------------------------------------------------------------------------------------------------&
+------
+
+    VALUE              TYPE               NAME
+    -----              ----               ----
+
+	-------            MODULE             MAIN
+	D:0021H            SYMBOL             PRESETONETHRESH
+	D:002AH            SYMBOL             PRESETTHREERATIO
+	D:0028H            SYMBOL             PRESETTHREEGAIN
+	D:002BH            SYMBOL             PRESETTHREERELEASE
+	D:0026H            SYMBOL             PRESETTWORATIO
+	D:0024H            SYMBOL             PRESETTWOGAIN
+	C:0000H            SYMBOL             START
+	D:0027H            SYMBOL             PRESETTWPRELEASE
+	C:0040H            SYMBOL             INIT
+	D:0022H            SYMBOL             PRESETONERATIO
+	D:0020H            SYMBOL             PRESETONEGAIN
+	D:0023H            SYMBOL             PRESETONERELEASE
+	D:0029H            SYMBOL             PRESETTHREETHRESH
+	C:004CH            SYMBOL             LOOP
+	C:0043H            SYMBOL             DELAY1SEC
+	D:0025H            SYMBOL             PRESETTWOTHRESH
+	C:0000H            LINE#              24
+	C:0040H            LINE#              29
+	C:0043H            LINE#              32
+	C:0046H            LINE#              33
+	C:0048H            LINE#              34
+	C:004AH            LINE#              35
+	C:004CH            LINE#              36
+	C:004EH            LINE#              37
+	C:0050H            LINE#              38
+	C:0052H            LINE#              39
+	-------            ENDMOD             MAIN
+
+----------------------
+SUGGESTED OPTIMIZATION
+----------------------
+Warning: 108 (6CH) data bytes in the range [00H-80H] are available for storage.
+         Consider using some of these for 'data' variables in your source files.
+
+
+LINK/LOCATE RUN COMPLETE,  NO ERROR FOUND.
+

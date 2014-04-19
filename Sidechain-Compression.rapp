@@ -1,25 +1,27 @@
 
-<ApplicationBuild Header="Sidechain-Compression" Extern=".\Sidechain-Compression.rapp" Path=".\Sidechain-Compression.rapp" OutputFile=".\Sidechain-Compression.aof" sate="2" >
+<ApplicationBuild Header="Sidechain-Compression" Extern=".\Sidechain-Compression.rapp" Path=".\Sidechain-Compression.rapp" OutputFile=".\Sidechain-Compression.aof" sate="96" >
 	<Options>
 		<Config Header="Standard" >
 			<Set Header="ApplicationBuild" >
 				<Section Header="General" >
 					<Property Header="TargetFamily" Value="80C51" />
-							
+																									
 				</Section>
-					
+																			
 			</Set>
 			<Set Header="Target" >
 				<Section Header="Processor80C51" >
 					<Property Header="Processor" Value="AT89S52" Removable="1" />
-							
+																									
 				</Section>
 				<Section Header="ToolSet80C51" >
 					<Property Header="BuildToolSet80C51" Value="80C51\RaisonanceTools.config" Removable="1" />
+					<Property Header="ArelocInfo" Value="" Removable="1" />
 							
 				</Section>
 					
 			</Set>
 		</Config>
 	</Options>
+	<NodeASM Path=".\Main.a51" Header="Main.a51" Marker="-1" OutputFile=".\Main.obj" sate="2" />
 </ApplicationBuild>
